@@ -1,4 +1,4 @@
-package com.mini_projects.user_service.dto;
+package com.mini_projects.user_service.domain.user.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,9 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-public class UserDTO {
+@AllArgsConstructor
+public class User {
 
     private Long id;
     private String name;

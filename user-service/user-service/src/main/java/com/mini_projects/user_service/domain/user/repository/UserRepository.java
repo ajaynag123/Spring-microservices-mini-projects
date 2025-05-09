@@ -1,6 +1,6 @@
-package com.mini_projects.user_service.repository;
+package com.mini_projects.user_service.domain.user.repository;
 
-import com.mini_projects.user_service.model.User;
+import com.mini_projects.user_service.domain.user.model.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
